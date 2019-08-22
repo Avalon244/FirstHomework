@@ -20,4 +20,7 @@ public class Bank {
 	public double drawMoney(double x) {
 		return money.drawMoney(user.getBalance(), x);
 	}
+	public static void main(String[] args){
+		System.out.println("欢迎使用本银行");
+	}
 }
